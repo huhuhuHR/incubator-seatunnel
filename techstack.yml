@@ -1,0 +1,1697 @@
+repo_name: huhuhuHR/incubator-seatunnel
+report_id: a8bdedeac82dd6ad47889d684f45e6e8
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T01:35:25+00:00'
+requested_by: chl-wxp
+provider: github
+branch: dev
+detected_tools_count: 110
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  version: '1.8'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/pom.xml
+  detection_source: Repo Metadata
+  last_updated_by: FlechazoW
+  last_updated_on: 2023-02-10 06:42:35.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-e2e/seatunnel-connector-v2-e2e/connector-cdc-mongodb-e2e/src/test/resources/ddl/mongodb_cdc.sql
+  detection_source: seatunnel-e2e/seatunnel-connector-v2-e2e/connector-cdc-mongodb-e2e/src/test/resources/ddl/mongodb_cdc.sql
+  last_updated_by: monster
+  last_updated_on: 2023-07-17 09:49:47.000000000 Z
+- name: Avro
+  description: A data serialization framework
+  website_url: https://avro.apache.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4265/avro.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-cdc/connector-cdc-mongodb/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-cdc/connector-cdc-mongodb/pom.xml
+  last_updated_by: monster
+  last_updated_on: 2023-07-17 09:49:47.000000000 Z
+- name: guava
+  description: Google Core Libraries for Java 6+
+  website_url: https://github.com/google/guava
+  version: '31.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2970/wBjKn0ol.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-elasticsearch/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-elasticsearch/pom.xml
+  last_updated_by: 王一川
+  last_updated_on: 2023-02-14 15:47:13.000000000 Z
+- name: Apache Derby
+  description: An open source relational database implemented entirely in Java
+  website_url: https://db.apache.org/derby/index.html
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/7309/derby.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-iceberg/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-iceberg/pom.xml
+  last_updated_by: FlechazoW
+  last_updated_on: 2023-02-10 14:19:23.000000000 Z
+- name: HBase
+  description: The Hadoop database, a distributed, scalable, big data store
+  website_url: http://hbase.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1043/HBase-Twitter3.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-hbase/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-hbase/pom.xml
+  last_updated_by: Tyrantlucifer
+  last_updated_on: 2023-02-08 07:51:17.000000000 Z
+- name: Hadoop
+  description: Open-source software for reliable, scalable, distributed computing
+  website_url: http://hadoop.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1044/elephant_rgb_sq.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-file/connector-file-jindo-oss/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-file/connector-file-jindo-oss/pom.xml
+  last_updated_by: Tyrantlucifer
+  last_updated_on: 2022-12-08 09:40:24.000000000 Z
+- name: Hazelcast
+  description: Clustering and highly scalable data distribution platform for Java
+  website_url: http://hazelcast.org/
+  version: '5.1'
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/2024/default_000f7e56d4be68acfa58a6ea8bd40e65a10e04ff.jpg
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-e2e/seatunnel-engine-e2e/pom.xml
+  detection_source: seatunnel-e2e/seatunnel-engine-e2e/pom.xml
+  last_updated_by: FlechazoW
+  last_updated_on: 2023-02-10 14:19:23.000000000 Z
+- name: Kafka
+  description: Distributed, fault tolerant, high throughput pub-sub messaging system
+  website_url: http://kafka.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1063/kazUJooF_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-kafka/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-kafka/pom.xml
+  last_updated_by: Xiaojian Sun
+  last_updated_on: 2023-08-11 13:25:24.000000000 Z
+- name: MSSQL
+  description: It is an enterprise-level database system that is very popular for
+    Windows web servers
+  website_url: https://www.microsoft.com/en-us/sql-server
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/2445/ZKsJsucq_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-cdc/connector-cdc-sqlserver/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-cdc/connector-cdc-sqlserver/pom.xml
+  last_updated_by: ic4y
+  last_updated_on: 2022-12-22 07:03:40.000000000 Z
+- name: Microsoft SQL Server
+  description: A relational database management system developed by Microsoft
+  website_url: http://microsoft.com/sqlserver
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1027/sql_server.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-cdc/connector-cdc-sqlserver/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-cdc/connector-cdc-sqlserver/pom.xml
+  last_updated_by: Guangdong Liu
+  last_updated_on: 2023-07-02 15:44:28.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-cdc/connector-cdc-mongodb/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-cdc/connector-cdc-mongodb/pom.xml
+  last_updated_by: monster
+  last_updated_on: 2023-07-17 09:49:47.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-cdc/connector-cdc-mysql/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-cdc/connector-cdc-mysql/pom.xml
+  last_updated_by: ic4y
+  last_updated_on: 2022-11-17 09:41:18.000000000 Z
+- name: Neo4j
+  description: The world’s leading Graph Database
+  website_url: http://www.neo4j.com/
+  license: GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Graph Databases
+  image_url: https://img.stackshare.io/service/1482/FbkjM42a.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-neo4j/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-neo4j/pom.xml
+  last_updated_by: Ran Tao
+  last_updated_on: 2023-02-15 08:37:54.000000000 Z
+- name: PostGIS
+  description: Open source spatial database
+  website_url: http://postgis.net/
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/2519/foo.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-jdbc/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-jdbc/pom.xml
+  last_updated_by: ic4y
+  last_updated_on: 2022-06-13 07:27:26.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-cdc/connector-cdc-postgres/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-cdc/connector-cdc-postgres/pom.xml
+  last_updated_by: hailin0
+  last_updated_on: 2024-01-19 11:28:07.000000000 Z
+- name: RabbitMQ
+  description: Open source multiprotocol messaging broker
+  website_url: http://www.rabbitmq.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1061/default_df93e9a30d27519161b39d8c1d5c223c1642d187.jpg
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-rabbitmq/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-rabbitmq/pom.xml
+  last_updated_by: Ran Tao
+  last_updated_on: 2023-02-15 08:37:54.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-redis/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-redis/pom.xml
+  last_updated_by: Ran Tao
+  last_updated_on: 2023-02-15 08:37:54.000000000 Z
+- name: SQLite
+  description: A software library that implements a self-contained, serverless, zero-configuration,
+    transactional SQL database engine
+  website_url: http://www.sqlite.org/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1071/sqlite.jpg
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-jdbc/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-jdbc/pom.xml
+  last_updated_by: ic4y
+  last_updated_on: 2022-06-13 07:27:26.000000000 Z
+- name: Snowflake
+  description: The data warehouse built for the cloud
+  website_url: https://www.snowflake.net/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Big Data as a Service
+  image_url: https://img.stackshare.io/service/5889/default_768181e102486f7411fe5f997dac1328d057c2cf.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-jdbc/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-jdbc/pom.xml
+  last_updated_by: Hao Xu
+  last_updated_on: 2023-05-25 14:02:56.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/.github/workflows/approve-label-trigger.yml
+  detection_source: ".github/workflows/approve-label-trigger.yml"
+  last_updated_by: Hisoka
+  last_updated_on: 2022-11-10 03:56:14.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/pom.xml
+  detection_source: pom.xml
+  last_updated_by: FlechazoW
+  last_updated_on: 2023-02-10 06:42:35.000000000 Z
+- name: Log4j
+  description: A Java-based logging utility
+  website_url: https://logging.apache.org/log4j/2.x/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/pom.xml
+  detection_source: pom.xml
+  last_updated_by: hailin0
+  last_updated_on: 2022-11-02 08:57:38.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/pom.xml
+  detection_source: pom.xml
+  last_updated_by: hailin0
+  last_updated_on: 2022-11-02 08:57:38.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel
+  detection_source: Repo Metadata
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  version: 2.6.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-examples/seatunnel-spark-connector-v2-example/pom.xml
+  detection_source: seatunnel-examples/seatunnel-spark-connector-v2-example/pom.xml
+  last_updated_by: TyrantLucifer
+  last_updated_on: 2022-09-11 12:48:20.000000000 Z
+  vulnerabilities:
+  - name: Improper Input Validation in jackson-databind
+    cve_id: CVE-2019-17267
+    cve_url: https://github.com/advisories/GHSA-f3j5-rmmp-3fc5
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11.5
+  - name: jackson-databind is vulnerable to a deserialization flaw
+    cve_id: CVE-2017-7525
+    cve_url: https://github.com/advisories/GHSA-qxxx-2pp7-5hmx
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.6.7.1
+  - name: Deserialization of Untrusted Data in jackson-databind
+    cve_id: CVE-2020-8840
+    cve_url: https://github.com/advisories/GHSA-4w82-r329-3q67
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.6.7.4
+  - name: Deserialization of Untrusted Data in jackson-databind
+    cve_id: CVE-2019-20330
+    cve_url: https://github.com/advisories/GHSA-gww7-p5w4-wrfv
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.6.7.4
+  - name: Deserialization of Untrusted Data in jackson-databind
+    cve_id: CVE-2018-11307
+    cve_url: https://github.com/advisories/GHSA-qr7j-h6gg-jmgc
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.7.9.4
+  - name: jackson-databind vulnerable to remote code execution due to incorrect deserialization
+      and blocklist bypass
+    cve_id: CVE-2017-17485
+    cve_url: https://github.com/advisories/GHSA-rfx6-vp9g-rh7v
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.7.9.2
+  - name: Arbitrary Code Execution in jackson-databind
+    cve_id: CVE-2018-14719
+    cve_url: https://github.com/advisories/GHSA-4gq5-ch57-c2mg
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.7.9.5
+  - name: Deserialization of untrusted data in FasterXML jackson-databind
+    cve_id: CVE-2019-14379
+    cve_url: https://github.com/advisories/GHSA-6fpp-rgj9-8rwc
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.7.9.6
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-9548
+    cve_url: https://github.com/advisories/GHSA-p43x-xfjf-5jhr
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.7.9.7
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-9547
+    cve_url: https://github.com/advisories/GHSA-q93h-jc49-78gg
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.7.9.7
+  - name: Polymorphic deserialization of malicious object in jackson-databind
+    cve_id: CVE-2019-14892
+    cve_url: https://github.com/advisories/GHSA-cf6r-3wgc-h863
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.6.7.3
+  - name: jackson-databind Deserialization of Untrusted Data vulnerability
+    cve_id: CVE-2018-12022
+    cve_url: https://github.com/advisories/GHSA-cjjf-94ff-43w7
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.7.9.4
+  - name: jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization
+    cve_id: CVE-2020-10650
+    cve_url: https://github.com/advisories/GHSA-rpr3-cw39-3pxh
+    detected_date: Jul 16
+    severity: high
+    first_patched: 2.9.10.4
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-24750
+    cve_url: https://github.com/advisories/GHSA-qjw2-hr98-qgfh
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.6.7.5
+  - name: XML External Entity (XXE) Injection in Jackson Databind
+    cve_id: CVE-2020-25649
+    cve_url: https://github.com/advisories/GHSA-288c-cq4h-88gq
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.6.7.4
+  - name: Serialization gadget exploit in jackson-databind
+    cve_id: CVE-2020-35728
+    cve_url: https://github.com/advisories/GHSA-5r5r-6hpj-8gg9
+    detected_date: Nov 22
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Uncontrolled Resource Consumption in FasterXML jackson-databind
+    cve_id: CVE-2022-42004
+    cve_url: https://github.com/advisories/GHSA-rgv9-q543-rqg4
+    detected_date: Oct 5
+    severity: high
+    first_patched: 2.12.7.1
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36186
+    cve_url: https://github.com/advisories/GHSA-v585-23hc-c647
+    detected_date: Jan 18
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Code Injection in jackson-databind
+    cve_id: CVE-2020-24616
+    cve_url: https://github.com/advisories/GHSA-h3cw-g4mq-c5x2
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.6
+  - name: Serialization gadgets exploit in jackson-databind
+    cve_id: CVE-2020-35490
+    cve_url: https://github.com/advisories/GHSA-wh8g-3j2c-rqj5
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Serialization gadgets exploit in jackson-databind
+    cve_id: CVE-2020-35491
+    cve_url: https://github.com/advisories/GHSA-r3gr-cxrf-hg25
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Uncontrolled Resource Consumption in Jackson-databind
+    cve_id: CVE-2022-42003
+    cve_url: https://github.com/advisories/GHSA-jjjh-jjxp-wpff
+    detected_date: Oct 5
+    severity: high
+    first_patched: 2.12.7.1
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36185
+    cve_url: https://github.com/advisories/GHSA-8w26-6f25-cm9x
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36184
+    cve_url: https://github.com/advisories/GHSA-m6x4-97wx-4q27
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36187
+    cve_url: https://github.com/advisories/GHSA-r695-7vr9-jgc2
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Deserialization of Untrusted Data in jackson-databind
+    cve_id: CVE-2018-5968
+    cve_url: https://github.com/advisories/GHSA-w3f4-3q6j-rh82
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.7.9.5
+  - name: Deeply nested json in jackson-databind
+    cve_id: CVE-2020-36518
+    cve_url: https://github.com/advisories/GHSA-57j2-w4cx-62h2
+    detected_date: Mar 23
+    severity: high
+    first_patched: 2.12.6.1
+- name: com.hazelcast:hazelcast
+  description: Core Hazelcast Module
+  version: '5.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-e2e/seatunnel-engine-e2e/pom.xml
+  detection_source: seatunnel-e2e/seatunnel-engine-e2e/pom.xml
+  last_updated_by: FlechazoW
+  last_updated_on: 2023-02-10 14:19:23.000000000 Z
+  vulnerabilities:
+  - name: Hazelcast connection caching
+    cve_id: CVE-2022-36437
+    cve_url: https://github.com/advisories/GHSA-c5hg-mr8r-f6jp
+    detected_date: Dec 28
+    severity: critical
+    first_patched: 5.1.3
+  - name: Missing permission checks on Hazelcast client protocol
+    cve_id: CVE-2023-45859
+    cve_url: https://github.com/advisories/GHSA-xh6m-7cr7-xx66
+    detected_date: Feb 28
+    severity: high
+    first_patched:
+  - name: Hazelcast Executor Services don't check client permissions properly
+    cve_id: CVE-2023-33265
+    cve_url: https://github.com/advisories/GHSA-c5vj-wp4v-mmvx
+    detected_date: Jul 20
+    severity: high
+    first_patched: 5.1.7
+  - name: Hazelcast vulnerable to unmasked password exposure
+    cve_id: CVE-2023-33264
+    cve_url: https://github.com/advisories/GHSA-5gj6-62g7-vmgf
+    detected_date: May 23
+    severity: moderate
+    first_patched: 5.3.0
+  - name: Hazelcast Platform permission checking in CSV File Source connector
+    cve_id: CVE-2023-45860
+    cve_url: https://github.com/advisories/GHSA-8h4x-xvjp-vf99
+    detected_date: Feb 17
+    severity: moderate
+    first_patched:
+- name: org.apache.derby:derby
+  description: Contains the core Apache Derby database engine
+  version: 10.14.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-iceberg/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-iceberg/pom.xml
+  last_updated_by: FlechazoW
+  last_updated_on: 2023-02-10 14:19:23.000000000 Z
+  vulnerabilities:
+  - name: 'Apache Derby: LDAP injection vulnerability in authenticator'
+    cve_id: CVE-2022-46337
+    cve_url: https://github.com/advisories/GHSA-rcjc-c4pj-xxrp
+    detected_date: Nov 21
+    severity: critical
+    first_patched: 10.14.3
+- name: org.apache.hadoop:hadoop-common
+  description: Apache Hadoop Common
+  version: 2.9.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-file/connector-file-jindo-oss/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-file/connector-file-jindo-oss/pom.xml
+  last_updated_by: FlechazoW
+  last_updated_on: 2023-02-10 14:19:23.000000000 Z
+  vulnerabilities:
+  - name: Path traversal in Hadoop
+    cve_id: CVE-2022-26612
+    cve_url: https://github.com/advisories/GHSA-gx2c-fvhc-ph4j
+    detected_date: Apr 13
+    severity: critical
+    first_patched: 3.2.3
+  - name: Apache Hadoop heap overflow before v2.10.2, v3.2.3, v3.3.2
+    cve_id: CVE-2021-37404
+    cve_url: https://github.com/advisories/GHSA-rmpj-7c96-mrg8
+    detected_date: Jun 17
+    severity: critical
+    first_patched: 2.10.2
+  - name: Apache Hadoop argument injection vulnerability
+    cve_id: CVE-2022-25168
+    cve_url: https://github.com/advisories/GHSA-8wm5-8h9c-47pc
+    detected_date: Aug 12
+    severity: critical
+    first_patched: 2.10.2
+  - name: Improper Privilege Management in Apache Hadoop
+    cve_id: CVE-2020-9492
+    cve_url: https://github.com/advisories/GHSA-f8vc-wfc8-hxqh
+    detected_date: Feb 10
+    severity: high
+    first_patched: 2.10.1
+- name: org.postgresql:postgresql
+  description: The PostgreSQL Driver JDBC4
+  version: 42.4.3
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-jdbc/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-cdc/connector-cdc-postgres/pom.xml
+  last_updated_by: hailin0
+  last_updated_on: 2024-01-19 11:28:07.000000000 Z
+  vulnerabilities:
+  - name: 'Duplicate Advisory: SQL injection in pgjdbc'
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-xfg6-62px-cxc2
+    detected_date: Feb 21
+    severity: critical
+    first_patched: 42.4.4
+  - name: org.postgresql:postgresql vulnerable to SQL Injection via line comment generation
+    cve_id: CVE-2024-1597
+    cve_url: https://github.com/advisories/GHSA-24rp-q3w6-vc56
+    detected_date: Feb 22
+    severity: critical
+    first_patched: 42.4.4
+- name: net.minidev:json-smart
+  description: JSON
+  version: 2.4.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-engine/seatunnel-engine-storage/imap-storage-plugins/imap-storage-file/pom.xml
+  detection_source: seatunnel-engine/seatunnel-engine-storage/imap-storage-plugins/imap-storage-file/pom.xml
+  last_updated_by: Xiaojian Sun
+  last_updated_on: 2023-08-08 01:20:46.000000000 Z
+  vulnerabilities:
+  - name: json-smart Uncontrolled Recursion vulnerabilty
+    cve_id: CVE-2023-1370
+    cve_url: https://github.com/advisories/GHSA-493p-pfq6-5258
+    detected_date: Mar 24
+    severity: high
+    first_patched: 2.4.9
+- name: org.jdom:jdom
+  description: A complete
+  version: '1.1'
+  license: zlib-acknowledgement
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-file/connector-file-oss/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-file/connector-file-oss/pom.xml
+  last_updated_by: Eric
+  last_updated_on: 2023-12-19 13:07:50.000000000 Z
+  vulnerabilities:
+  - name: XML External Entity (XXE) Injection in JDOM
+    cve_id: CVE-2021-33813
+    cve_url: https://github.com/advisories/GHSA-2363-cqg2-863c
+    detected_date: Aug 22
+    severity: high
+    first_patched:
+- name: org.xerial:sqlite-jdbc
+  description: SQLite JDBC library
+  version: 3.39.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-jdbc/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-jdbc/pom.xml
+  last_updated_by: Jia Fan
+  last_updated_on: 2024-01-03 11:53:50.000000000 Z
+  vulnerabilities:
+  - name: Sqlite-jdbc vulnerable to remote code execution when JDBC url is attacker
+      controlled
+    cve_id: CVE-2023-32697
+    cve_url: https://github.com/advisories/GHSA-6phf-6h5g-97j2
+    detected_date: May 24
+    severity: high
+    first_patched: 3.41.2.2
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  version: '31.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-elasticsearch/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-elasticsearch/pom.xml
+  last_updated_by: 王一川
+  last_updated_on: 2023-02-14 15:47:13.000000000 Z
+  vulnerabilities:
+  - name: Guava vulnerable to insecure use of temporary directory
+    cve_id: CVE-2023-2976
+    cve_url: https://github.com/advisories/GHSA-7g45-4rm6-3mm3
+    detected_date: Jun 15
+    severity: moderate
+    first_patched: 32.0.0-android
+  - name: Information Disclosure in Guava
+    cve_id: CVE-2020-8908
+    cve_url: https://github.com/advisories/GHSA-5mg8-w23w-74h3
+    detected_date: Aug 22
+    severity: low
+    first_patched: 32.0.0-android
+- name: com.rabbitmq:amqp-client
+  description: The RabbitMQ Java client library allows Java applications to interface
+    with RabbitMQ
+  version: 5.9.0
+  license: Apache-2.0,GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-rabbitmq/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-rabbitmq/pom.xml
+  last_updated_by: Ran Tao
+  last_updated_on: 2023-02-15 08:37:54.000000000 Z
+  vulnerabilities:
+  - name: RabbitMQ Java client's Lack of Message Size Limitation leads to Remote DoS
+      Attack
+    cve_id: CVE-2023-46120
+    cve_url: https://github.com/advisories/GHSA-mm8h-8587-p46h
+    detected_date: Oct 24
+    severity: moderate
+    first_patched: 5.18.0
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  version: 8.0.27
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-jdbc/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-cdc/connector-cdc-mysql/pom.xml
+  last_updated_by: Guangdong Liu
+  last_updated_on: 2023-07-02 15:44:28.000000000 Z
+  vulnerabilities:
+  - name: Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors
+      Java
+    cve_id: CVE-2022-21363
+    cve_url: https://github.com/advisories/GHSA-g76j-4cxx-23h9
+    detected_date: Jun 21
+    severity: moderate
+    first_patched: 8.0.28
+- name: com.aliyun.odps:odps-sdk-core
+  description: Alibaba Cloud Computing Open Data Processing Service
+  version: 0.31.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-maxcompute/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-maxcompute/pom.xml
+  last_updated_by: stdnt-xiao
+  last_updated_on: 2022-12-11 09:05:41.000000000 Z
+- name: com.aliyun.oss:aliyun-sdk-oss
+  description: Aliyun OSS SDK for Java Copyright
+  version: 3.4.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-file/connector-file-oss/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-file/connector-file-oss/pom.xml
+  last_updated_by: Eric
+  last_updated_on: 2023-12-19 13:07:50.000000000 Z
+- name: com.beust:jcommander
+  description: Command line parser library for Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-core/seatunnel-core-starter/pom.xml
+  detection_source: seatunnel-core/seatunnel-core-starter/pom.xml
+  last_updated_by: Hisoka
+  last_updated_on: 2022-09-14 10:50:02.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-core
+  description: Core Jackson processing abstractions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-shade/seatunnel-jackson/pom.xml
+  detection_source: seatunnel-shade/seatunnel-jackson/pom.xml
+  last_updated_by: FuYouJ
+  last_updated_on: 2023-11-07 04:12:42.000000000 Z
+- name: com.fasterxml.jackson.datatype:jackson-datatype-jsr310
+  description: Add-on module to support JSR-310
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-shade/seatunnel-jackson/pom.xml
+  detection_source: seatunnel-shade/seatunnel-jackson/pom.xml
+  last_updated_by: FuYouJ
+  last_updated_on: 2023-11-07 04:12:42.000000000 Z
+- name: com.github.jsqlparser:jsqlparser
+  description: JSqlParser parses an SQL statement and translate it into a hierarchy
+    of Java classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-transforms-v2/pom.xml
+  detection_source: seatunnel-transforms-v2/pom.xml
+  last_updated_by: FuYouJ
+  last_updated_on: 2023-11-07 04:12:42.000000000 Z
+- name: com.github.rholder:guava-retrying
+  description: This is a small extension to Google's Guava library to allow for the
+    creation of configurable retrying strategies for an arbitrary function call
+  version: 2.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-http/connector-http-base/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-http/connector-http-base/pom.xml
+  last_updated_by: liugddx
+  last_updated_on: 2022-11-30 10:57:02.000000000 Z
+- name: com.google.auth:google-auth-library-oauth2-http
+  version: 1.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-google-sheets/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-google-sheets/pom.xml
+  last_updated_by: Ran Tao
+  last_updated_on: 2023-02-15 08:37:54.000000000 Z
+- name: com.google.auto.service:auto-service
+  description: Provider-configuration files for ServiceLoader
+  version: 1.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/pom.xml
+  detection_source: pom.xml
+  last_updated_by: FuYouJ
+  last_updated_on: 2023-11-07 04:12:42.000000000 Z
+- name: com.jayway.jsonpath:json-path
+  description: Java port of Stefan Goessner JsonPath
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-http/connector-http-base/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-http/connector-http-base/pom.xml
+  last_updated_by: liugddx
+  last_updated_on: 2022-11-30 10:57:02.000000000 Z
+- name: com.jcraft:jsch
+  description: JSch is a pure Java implementation of SSH2
+  version: 0.1.55
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-file/connector-file-sftp/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-file/connector-file-sftp/pom.xml
+  last_updated_by: Eric
+  last_updated_on: 2022-12-22 07:48:28.000000000 Z
+- name: com.jolbox:bonecp
+  description: Lightweight connection pool
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-iceberg/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-iceberg/pom.xml
+  last_updated_by: hailin0
+  last_updated_on: 2022-09-16 09:21:09.000000000 Z
+- name: com.lmax:disruptor
+  description: Disruptor - Concurrent Programming Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-core/seatunnel-starter/pom.xml
+  detection_source: seatunnel-core/seatunnel-starter/pom.xml
+  last_updated_by: hailin0
+  last_updated_on: 2022-11-02 08:57:38.000000000 Z
+- name: com.microsoft.sqlserver:mssql-jdbc
+  description: Microsoft JDBC 4.1 Driver for SQL Server
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-cdc/connector-cdc-sqlserver/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-cdc/connector-cdc-sqlserver/pom.xml
+  last_updated_by: Guangdong Liu
+  last_updated_on: 2023-07-02 15:44:28.000000000 Z
+- name: com.squareup.okhttp3:mockwebserver
+  description: 'Null'
+  version: 3.6.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-examples/seatunnel-flink-connector-v2-example/pom.xml
+  detection_source: seatunnel-examples/seatunnel-flink-connector-v2-example/pom.xml
+  last_updated_by: FlechazoW
+  last_updated_on: 2023-02-10 14:19:23.000000000 Z
+- name: com.sun.mail:javax.mail
+  description: "${project.name}"
+  version: 1.5.6
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-email/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-email/pom.xml
+  last_updated_by: Ran Tao
+  last_updated_on: 2023-02-15 08:37:54.000000000 Z
+- name: com.typesafe:config
+  description: Configuration library for JVM languages using HOCON files
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-config/seatunnel-config-base/pom.xml
+  detection_source: seatunnel-config/seatunnel-config-base/pom.xml
+  last_updated_by: Tyrantlucifer
+  last_updated_on: 2023-05-12 01:58:59.000000000 Z
+- name: com.zaxxer:HikariCP
+  description: Ultimate JDBC Connection Pool
+  version: 4.0.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-cdc/connector-cdc-base/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-cdc/connector-cdc-base/pom.xml
+  last_updated_by: Carl-Zhou-CN
+  last_updated_on: 2023-09-27 02:00:32.000000000 Z
+- name: commons-codec:commons-codec
+  description: The Apache Commons Codec package contains simple encoder and decoders
+    for various formats such as Base64 and Hexadecimal
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-common/pom.xml
+  detection_source: seatunnel-common/pom.xml
+  last_updated_by: Ran Tao
+  last_updated_on: 2023-02-15 08:37:54.000000000 Z
+- name: commons-dbcp:commons-dbcp
+  description: Commons Database Connection Pooling
+  version: '1.4'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-iceberg/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-iceberg/pom.xml
+  last_updated_by: hailin0
+  last_updated_on: 2022-09-16 09:21:09.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  version: 2.11.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-clickhouse/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-clickhouse/pom.xml
+  last_updated_by: Hisoka
+  last_updated_on: 2022-06-28 11:10:19.000000000 Z
+- name: io.kubernetes:client-java
+  description: Kubernetes Client Library
+  version: 16.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-e2e/seatunnel-engine-e2e/seatunnel-engine-k8s-e2e/pom.xml
+  detection_source: seatunnel-e2e/seatunnel-engine-e2e/seatunnel-engine-k8s-e2e/pom.xml
+  last_updated_by: xiami
+  last_updated_on: 2023-11-03 02:22:04.000000000 Z
+- name: io.netty:netty-buffer
+  description: Netty project - an event-driven asynchronous network application framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-e2e/seatunnel-engine-e2e/connector-seatunnel-e2e-base/pom.xml
+  detection_source: seatunnel-e2e/seatunnel-engine-e2e/connector-seatunnel-e2e-base/pom.xml
+  last_updated_by: Xiaojian Sun
+  last_updated_on: 2023-05-21 14:18:23.000000000 Z
+- name: io.netty:netty-common
+  description: Netty project - an event-driven asynchronous network application framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-shade/seatunnel-arrow-5.0/pom.xml
+  detection_source: seatunnel-shade/seatunnel-arrow-5.0/pom.xml
+  last_updated_by: bingquanzhao
+  last_updated_on: 2024-01-15 12:47:28.000000000 Z
+- name: io.protostuff:protostuff-core
+  description: Protobuf serialization for mutable messages
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-engine/seatunnel-engine-serializer/serializer-protobuf/pom.xml
+  detection_source: seatunnel-engine/seatunnel-engine-serializer/serializer-protobuf/pom.xml
+  last_updated_by: Ran Tao
+  last_updated_on: 2023-02-15 08:37:54.000000000 Z
+- name: io.protostuff:protostuff-runtime
+  description: Protobuf serialization for pre-existing objects
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-engine/seatunnel-engine-serializer/serializer-protobuf/pom.xml
+  detection_source: seatunnel-engine/seatunnel-engine-serializer/serializer-protobuf/pom.xml
+  last_updated_by: Ran Tao
+  last_updated_on: 2023-02-15 08:37:54.000000000 Z
+- name: io.rest-assured:rest-assured
+  description: Java DSL for easy testing of REST services
+  version: 4.3.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-e2e/pom.xml
+  detection_source: seatunnel-e2e/pom.xml
+  last_updated_by: Guangdong Liu
+  last_updated_on: 2023-03-22 02:10:25.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-cdc/connector-cdc-base/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-cdc/connector-cdc-base/pom.xml
+  last_updated_by: Carl-Zhou-CN
+  last_updated_on: 2023-10-19 06:47:36.000000000 Z
+- name: net.jpountz.lz4:lz4
+  description: Java ports and bindings of the LZ4 compression algorithm and the xxHash
+    hashing algorithm
+  version: 1.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-examples/seatunnel-spark-connector-v2-example/pom.xml
+  detection_source: seatunnel-examples/seatunnel-spark-connector-v2-example/pom.xml
+  last_updated_by: Kirs
+  last_updated_on: 2022-09-03 07:14:04.000000000 Z
+- name: org.apache.avro:avro
+  description: Avro core components
+  version: 1.11.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-cdc/connector-cdc-mongodb/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-cdc/connector-cdc-mongodb/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-24 10:46:46.000000000 Z
+- name: org.apache.commons:commons-collections4
+  description: The Apache Commons Collections package contains types that extend and
+    augment the Java Collections Framework
+  version: '4.4'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-file/connector-file-base/pom.xml
+  detection_source: seatunnel-common/pom.xml
+  last_updated_by: Tyrantlucifer
+  last_updated_on: 2023-04-10 10:12:08.000000000 Z
+- name: org.apache.commons:commons-compress
+  description: Apache Commons Compress software defines an API for working with compression
+    and archive formats
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-core/seatunnel-core-starter/pom.xml
+  detection_source: seatunnel-core/seatunnel-core-starter/pom.xml
+  last_updated_by: FlechazoW
+  last_updated_on: 2023-02-10 14:19:23.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  version: '3.4'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-file/connector-file-base/pom.xml
+  detection_source: seatunnel-common/pom.xml
+  last_updated_by: Tyrantlucifer
+  last_updated_on: 2023-04-10 10:12:08.000000000 Z
+- name: org.apache.flink:flink-clients
+  description: Apache Flink
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-core/seatunnel-flink-starter/seatunnel-flink-15-starter/pom.xml
+  detection_source: seatunnel-core/seatunnel-flink-starter/seatunnel-flink-15-starter/pom.xml
+  last_updated_by: Jia Fan
+  last_updated_on: 2024-01-16 14:55:10.000000000 Z
+- name: org.apache.flink:flink-java
+  description: The Apache Software Foundation provides support for the Apache community
+    of open-source software projects
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-core/seatunnel-flink-starter/seatunnel-flink-13-starter/pom.xml
+  detection_source: seatunnel-core/seatunnel-flink-starter/seatunnel-flink-13-starter/pom.xml
+  last_updated_by: Tyrantlucifer
+  last_updated_on: 2023-04-09 12:26:27.000000000 Z
+- name: org.apache.flink:flink-runtime
+  description: Apache Flink
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-translation/seatunnel-translation-flink/seatunnel-translation-flink-15/pom.xml
+  detection_source: seatunnel-translation/seatunnel-translation-flink/seatunnel-translation-flink-15/pom.xml
+  last_updated_by: Tyrantlucifer
+  last_updated_on: 2023-04-10 06:49:18.000000000 Z
+- name: org.apache.hadoop:hadoop-aws
+  description: This module contains code to support integration with Amazon Web Services
+  version: 2.6.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-file/connector-file-s3/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-file/connector-file-s3/pom.xml
+  last_updated_by: FlechazoW
+  last_updated_on: 2023-02-10 14:19:23.000000000 Z
+- name: org.apache.hadoop:hadoop-client
+  description: Apache Hadoop Client
+  version: 3.1.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-core/seatunnel-starter/pom.xml
+  detection_source: seatunnel-core/seatunnel-starter/pom.xml
+  last_updated_by: Jia Fan
+  last_updated_on: 2024-01-16 14:55:10.000000000 Z
+- name: org.apache.hadoop:hadoop-minikdc
+  description: Apache Hadoop MiniKDC
+  version: 3.1.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-file/connector-file-base/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-file/connector-file-base/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2023-12-17 11:35:23.000000000 Z
+- name: org.apache.hbase:hbase-client
+  description: Client of HBase
+  version: 2.4.10
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-hbase/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-hbase/pom.xml
+  last_updated_by: Ran Tao
+  last_updated_on: 2023-02-15 08:37:54.000000000 Z
+- name: org.apache.hive:hive-exec
+  description: Hive is a data warehouse infrastructure built on top of Hadoop see
+    http://wiki.apache.org/hadoop/Hive
+  version: 2.3.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-hive/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-hive/pom.xml
+  last_updated_by: FlechazoW
+  last_updated_on: 2023-02-10 14:19:23.000000000 Z
+- name: org.apache.hive:hive-jdbc
+  description: Hive is a data warehouse infrastructure built on top of Hadoop see
+    http://wiki.apache.org/hadoop/Hive
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-jdbc/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-jdbc/pom.xml
+  last_updated_by: Jia Fan
+  last_updated_on: 2024-01-03 11:53:50.000000000 Z
+- name: org.apache.httpcomponents:httpclient
+  description: Apache HttpComponents Client
+  version: 4.5.13
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-doris/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-doris/pom.xml
+  last_updated_by: bingquanzhao
+  last_updated_on: 2024-01-15 12:47:28.000000000 Z
+- name: org.apache.httpcomponents:httpcore
+  description: Apache HttpComponents Core
+  version: 4.4.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-doris/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-doris/pom.xml
+  last_updated_by: bingquanzhao
+  last_updated_on: 2024-01-15 12:47:28.000000000 Z
+- name: org.apache.kafka:kafka-clients
+  version: 3.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-kafka/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-kafka/pom.xml
+  last_updated_by: Jarvis
+  last_updated_on: 2023-12-14 05:39:31.000000000 Z
+- name: org.apache.logging.log4j:log4j-1.2-api
+  description: The Apache Log4j 1.x Compatibility API
+  version: 2.17.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/pom.xml
+  detection_source: pom.xml
+  last_updated_by: hailin0
+  last_updated_on: 2023-08-07 09:10:36.000000000 Z
+- name: org.apache.logging.log4j:log4j-api
+  description: The Apache Log4j API
+  version: 2.17.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/pom.xml
+  detection_source: pom.xml
+  last_updated_by: hailin0
+  last_updated_on: 2023-08-07 09:10:36.000000000 Z
+- name: org.apache.logging.log4j:log4j-core
+  description: The Apache Log4j Implementation
+  version: 2.17.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/pom.xml
+  detection_source: pom.xml
+  last_updated_by: hailin0
+  last_updated_on: 2023-08-07 09:10:36.000000000 Z
+- name: org.apache.logging.log4j:log4j-slf4j-impl
+  description: Binding between SLF4J API and Log4J2 Core
+  version: 2.17.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/pom.xml
+  detection_source: pom.xml
+  last_updated_by: hailin0
+  last_updated_on: 2023-08-07 09:10:36.000000000 Z
+- name: org.apache.maven:maven-model
+  description: Model for Maven POM
+  version: 3.6.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-e2e/seatunnel-engine-e2e/seatunnel-engine-k8s-e2e/pom.xml
+  detection_source: seatunnel-e2e/seatunnel-engine-e2e/seatunnel-engine-k8s-e2e/pom.xml
+  last_updated_by: xiami
+  last_updated_on: 2023-11-03 02:22:04.000000000 Z
+- name: org.apache.orc:orc-core
+  description: The core reader and writer for ORC files
+  version: 1.5.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-file/connector-file-base/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-file/connector-file-base/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2023-12-17 11:35:23.000000000 Z
+- name: org.apache.parquet:parquet-avro
+  version: 1.12.3
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-file/connector-file-base/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-file/connector-file-base/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2023-12-17 11:35:23.000000000 Z
+- name: org.apache.poi:poi
+  description: Apache POI - Java API To Access Microsoft Format Files
+  version: 4.1.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-file/connector-file-base/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-file/connector-file-base/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2023-12-17 11:35:23.000000000 Z
+- name: org.apache.poi:poi-ooxml
+  description: Apache POI - Java API To Access Microsoft Format Files
+  version: 4.1.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-file/connector-file-base/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-file/connector-file-base/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2023-12-17 11:35:23.000000000 Z
+- name: org.awaitility:awaitility
+  description: A Java DSL for synchronizing asynchronous operations
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-e2e/pom.xml
+  detection_source: seatunnel-e2e/pom.xml
+  last_updated_by: hailin0
+  last_updated_on: 2022-09-13 03:58:22.000000000 Z
+- name: org.datanucleus:datanucleus-api-jdo
+  description: Plugin providing DataNucleus implementation of the JDO API
+  version: 4.1.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-iceberg/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-iceberg/pom.xml
+  last_updated_by: hailin0
+  last_updated_on: 2022-09-16 09:21:09.000000000 Z
+- name: org.datanucleus:datanucleus-rdbms
+  description: Plugin for DataNucleus providing persistence to RDBMS datastores
+  version: 4.1.17
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-iceberg/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-iceberg/pom.xml
+  last_updated_by: hailin0
+  last_updated_on: 2022-09-16 09:21:09.000000000 Z
+- name: org.elasticsearch.client:elasticsearch-rest-client
+  description: Elasticsearch subproject :client:rest
+  version: 7.5.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-elasticsearch/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-elasticsearch/pom.xml
+  last_updated_by: Ran Tao
+  last_updated_on: 2023-02-15 08:37:54.000000000 Z
+- name: org.influxdb:influxdb-java
+  description: Java API to access the InfluxDB REST API
+  version: '2.21'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-influxdb/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-influxdb/pom.xml
+  last_updated_by: Ran Tao
+  last_updated_on: 2023-02-15 08:37:54.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-engine
+  description: Module "junit-jupiter-engine" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Carl-Zhou-CN
+  last_updated_on: 2023-10-19 06:47:36.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-params
+  description: Module "junit-jupiter-params" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Carl-Zhou-CN
+  last_updated_on: 2023-10-19 06:47:36.000000000 Z
+- name: org.mongodb:bson
+  description: The BSON library
+  version: 4.7.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-mongodb/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-mongodb/pom.xml
+  last_updated_by: monster
+  last_updated_on: 2023-05-16 03:33:08.000000000 Z
+- name: org.mongodb:mongodb-driver-core
+  description: The Java operations layer for the MongoDB Java Driver
+  version: 4.7.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-mongodb/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-mongodb/pom.xml
+  last_updated_by: monster
+  last_updated_on: 2023-05-16 03:33:08.000000000 Z
+- name: org.neo4j.driver:neo4j-java-driver
+  description: Access to the Neo4j graph database through Java
+  version: 4.4.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-neo4j/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-neo4j/pom.xml
+  last_updated_by: Ran Tao
+  last_updated_on: 2023-02-15 08:37:54.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  version: 1.18.24
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Tyrantlucifer
+  last_updated_on: 2023-03-09 10:34:42.000000000 Z
+- name: org.scala-lang:scala-library
+  description: Standard library for the Scala Programming Language
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-config/seatunnel-config-shade/pom.xml
+  detection_source: seatunnel-config/seatunnel-config-shade/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2022-03-28 04:43:35.000000000 Z
+- name: org.slf4j:jcl-over-slf4j
+  description: JCL 1.2 implemented over SLF4J
+  version: 1.7.25
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Zongwen Li
+  last_updated_on: 2023-02-27 14:30:28.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  version: 1.7.25
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Zongwen Li
+  last_updated_on: 2023-02-27 14:30:28.000000000 Z
+- name: org.testcontainers:postgresql
+  description: Testcontainers is a Java library that supports JUnit tests
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-e2e/seatunnel-connector-v2-e2e/connector-cdc-postgres-e2e/pom.xml
+  detection_source: seatunnel-e2e/seatunnel-connector-v2-e2e/connector-cdc-postgres-e2e/pom.xml
+  last_updated_by: hailin0
+  last_updated_on: 2024-01-19 11:28:07.000000000 Z
+- name: org.testcontainers:testcontainers
+  description: Isolated container management for Java code testing
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-e2e/pom.xml
+  detection_source: seatunnel-e2e/pom.xml
+  last_updated_by: Guangdong Liu
+  last_updated_on: 2023-03-22 02:10:25.000000000 Z
+- name: redis.clients:jedis
+  description: Jedis is a blazingly small and sane Redis java client
+  version: 4.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/incubator-seatunnel/blob/dev/seatunnel-connectors-v2/connector-redis/pom.xml
+  detection_source: seatunnel-connectors-v2/connector-redis/pom.xml
+  last_updated_by: Ran Tao
+  last_updated_on: 2023-02-15 08:37:54.000000000 Z
